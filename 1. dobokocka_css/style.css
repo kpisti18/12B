@@ -1,0 +1,18 @@
+body {
+    background-color: #dc3545;
+    font-family: Arial, Helvetica, sans-serif;
+    /* reszponzivitáshoz */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+#dice {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    /* a kijelölése eltávolítása */
+    user-select: none;
+}

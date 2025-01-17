@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kő - Papír - Olló</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./rock.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-title" id="mainTitle">Válaszd ki a fegyvered</div>
+        <div class="subtitle" id="subTitle">Az első 5 pontig megy a harc</div>
+
+        <div class="score">
+            <div class="player">
+                <div id="playerChoice">❔</div>
+                <div>Játékos: <span id="playerScore">0</span></div>
+            </div>
+            <div class="computer">
+                <div id="computerChoice">❔</div>
+                <div>Számítógép: <span id="computerScore">0</span></div>
+            </div>
+        </div>
+
+        <div class="choice-container">
+            <div class="choice" id="rock">✊</div>
+            <div class="choice" id="paper">✋</div>
+            <div class="choice" id="scissors">✌</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
